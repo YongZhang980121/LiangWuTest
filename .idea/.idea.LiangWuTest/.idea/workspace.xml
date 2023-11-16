@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Weapon/WeaponController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,6 +73,7 @@
       <updated>1700119283682</updated>
       <workItem from="1700119294701" duration="698000" />
       <workItem from="1700130113439" duration="3879000" />
+      <workItem from="1700157896899" duration="4824000" />
     </task>
     <servers />
   </component>

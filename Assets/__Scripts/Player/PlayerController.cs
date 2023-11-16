@@ -70,12 +70,12 @@ public class PlayerController : MonoBehaviour
     {
         if (inputVector.x > 0)
         {
-            transform.localEulerAngles = new Vector3(0, 0f, 0);
+            spriteTransform.localEulerAngles = new Vector3(0, 0f, 0);
         }
         
         if (inputVector.x < 0)
         {
-            transform.localEulerAngles = new Vector3(0, 180f, 0);
+            spriteTransform.localEulerAngles = new Vector3(0, 180f, 0);
         }
     }
 }
