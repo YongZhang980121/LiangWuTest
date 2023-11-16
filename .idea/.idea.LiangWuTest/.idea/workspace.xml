@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94b3a175-5be0-47f6-895d-93bf3cd5cb94" name="Changes" comment="" />
+    <list default="true" id="94b3a175-5be0-47f6-895d-93bf3cd5cb94" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LiangWuTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiangWuTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Player/PlayerController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700119283682</updated>
       <workItem from="1700119294701" duration="698000" />
-      <workItem from="1700130113439" duration="2280000" />
+      <workItem from="1700130113439" duration="3879000" />
     </task>
     <servers />
   </component>
