@@ -33,6 +33,6 @@ public class WeaponController : MonoBehaviour
     }
     
     public void Fire(){
-        currentWeapon.FireProjectile(currentAngle);
+        currentWeapon.Fire(currentAngle);
     }
 }

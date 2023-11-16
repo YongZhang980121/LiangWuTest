@@ -165,4 +165,7 @@ MonoBehaviour:
   firePoint: {fileID: 7945785721807789638}
   projectileSpeed: 3000
   fireRate: 0.2
+  kickbackDistance: 20
+  kickbackDuration: 0.1
+  weaponTransform: {fileID: 4020025276073655451}
   scatterAngle: 5
