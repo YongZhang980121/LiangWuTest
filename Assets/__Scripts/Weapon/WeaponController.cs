@@ -9,6 +9,12 @@ public class WeaponController : MonoBehaviour
     public Transform weaponTransform;
     public float rotationSpeed;
     private float currentAngle = 0f;
+    public Weapon currentWeapon;
+
+    private void Awake()
+    {
+        currentWeapon = GetComponentInChildren<Weapon>();
+    }
 
     private void Update()
     {
@@ -19,8 +25,14 @@ public class WeaponController : MonoBehaviour
         var targetAngle = Mathf.Atan2(directionOnScreen.y, directionOnScreen.x) * Mathf.Rad2Deg;
         currentAngle = Mathf.LerpAngle(currentAngle, targetAngle, rotationSpeed * Time.deltaTime);
 
-        weaponTransform.localEulerAngles = new Vector3(0f, 0f, currentAngle);
-        
-        weaponTransform.localScale = new Vector3(1f, (currentAngle > 90 || currentAngle < -90) ? -1f : 1f, 1f);
+        var tempCurrentAngle = Mathf.Repeat(currentAngle + 180f, 360f) - 180f;
+
+        weaponTransform.localEulerAngles = new Vector3(0f, 0f, tempCurrentAngle);
+
+        weaponTransform.localScale = new Vector3(1f, (tempCurrentAngle > 90 || tempCurrentAngle < -90) ? -1f : 1f, 1f);
+    }
+    
+    public void Fire(){
+        currentWeapon.FireProjectile(currentAngle);
     }
 }

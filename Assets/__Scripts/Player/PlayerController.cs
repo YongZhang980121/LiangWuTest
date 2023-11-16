@@ -13,16 +13,13 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     private bool jumping;
     public Transform spriteTransform;
+    public WeaponController weaponController;
+    private Coroutine firingCoroutine;
 
     private void Awake()
     {
         input = new PlayerInput();
         jumping = false;
-        // DOVirtual.DelayedCall(2f, () =>
-        // {
-        //     Debug.Log(123);
-        //     spriteTransform.DOLocalJump(spriteTransform.localPosition, 30, 1, 0.5f);
-        // });
     }
 
     private void OnEnable()
@@ -30,6 +27,8 @@ public class PlayerController : MonoBehaviour
         input.Enable();
         input.Player.Movement.performed += OnMovementPerformed;
         input.Player.Movement.canceled += OnMovementCanceled;
+        input.Player.Fire.performed += OnFireClick;
+        input.Player.Fire.canceled += OnFireRelease;
     }
 
     private void OnDisable()
@@ -37,6 +36,8 @@ public class PlayerController : MonoBehaviour
         input.Disable();
         input.Player.Movement.performed -= OnMovementPerformed;
         input.Player.Movement.canceled -= OnMovementCanceled;
+        input.Player.Fire.performed -= OnFireClick;
+        input.Player.Fire.canceled -= OnFireRelease;
     }
 
     private void OnMovementPerformed(InputAction.CallbackContext value)
@@ -47,6 +48,32 @@ public class PlayerController : MonoBehaviour
     private void OnMovementCanceled(InputAction.CallbackContext value)
     {
         moveVector = Vector2.zero;
+    }
+
+    private void OnFireClick(InputAction.CallbackContext callbackContext)
+    {
+        if (firingCoroutine == null)
+        {
+            firingCoroutine = StartCoroutine(FireContinuously());
+        }
+    }
+    
+    public void OnFireRelease(InputAction.CallbackContext callbackContext)
+    {
+        if (firingCoroutine != null)
+        {
+            StopCoroutine(firingCoroutine);
+            firingCoroutine = null;
+        }
+    }
+    
+    private IEnumerator FireContinuously()
+    {
+        while (true)
+        {
+            weaponController.Fire();
+            yield return new WaitForSeconds(weaponController.currentWeapon.fireRate);
+        }
     }
 
     private void Update()

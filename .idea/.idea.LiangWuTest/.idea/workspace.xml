@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="94b3a175-5be0-47f6-895d-93bf3cd5cb94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiangWuTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiangWuTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input/PlayerInput.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input/PlayerInput.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Global.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Global.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Weapon/WeaponController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Weapon/WeaponController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +18,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Weapon/Rifle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Weapon/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Weapon/WeaponController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -73,7 +80,7 @@
       <updated>1700119283682</updated>
       <workItem from="1700119294701" duration="698000" />
       <workItem from="1700130113439" duration="3879000" />
-      <workItem from="1700157896899" duration="4824000" />
+      <workItem from="1700157896899" duration="7486000" />
     </task>
     <servers />
   </component>

@@ -4,5 +4,5 @@ using UnityEngine;
 
 public static class Global
 {
-
+    public static BattleManager battleManager;
 }
