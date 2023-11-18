@@ -1,18 +1,27 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float health;
+    private void OnEnable()
     {
-        
+        health = Global.enemyHp;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void TakeDamage(float damage)
     {
-        
+        health -= damage;
+        if (health <= 0)
+        {
+            Kill();
+        }
+    }
+
+    public void Kill()
+    {
+        Global.enemyManager.ReturnEnemyToPool(this);
     }
 }

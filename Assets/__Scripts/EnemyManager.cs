@@ -16,6 +16,7 @@ public class EnemyManager : MonoBehaviour
 
     private void Awake()
     {
+        Global.enemyManager = this;
         // Initialize the object pool
         enemyPool = new ObjectPool<Enemy>(
             createFunc: () => Instantiate(enemyPrefab),
@@ -64,5 +65,10 @@ public class EnemyManager : MonoBehaviour
 
         // If a safe position isn't found, ignore the safe distance and use the last generated position
         enemy.transform.position = spawnPosition;
+    }
+    
+    public void ReturnEnemyToPool(Enemy enemy)
+    {
+        enemyPool.Release(enemy);
     }
 }

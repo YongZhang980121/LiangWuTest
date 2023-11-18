@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Rifle : Weapon
 {
@@ -19,5 +21,15 @@ public class Rifle : Weapon
         Vector2 firingDirection = new Vector2(Mathf.Cos(adjustedAngle * Mathf.Deg2Rad), Mathf.Sin(adjustedAngle * Mathf.Deg2Rad));
         rb.velocity = firingDirection * projectileSpeed;
         
+    }
+
+    private void Start()
+    {
+        Setup();
+    }
+
+    public override void Setup()
+    {
+        fireRate = Global.rifleFireRate;
     }
 }

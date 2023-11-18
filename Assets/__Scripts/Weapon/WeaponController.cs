@@ -14,6 +14,7 @@ public class WeaponController : MonoBehaviour
     private void Awake()
     {
         currentWeapon = GetComponentInChildren<Weapon>();
+        Global.weaponController = this;
     }
 
     private void Update()

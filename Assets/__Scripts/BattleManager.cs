@@ -12,5 +12,8 @@ public class BattleManager : MonoBehaviour
     {
          Application.targetFrameRate = 120;
          Global.battleManager = this;
+         Global.enemyHp = 10f;
+         Global.rifleDamage = 10f;
+         Global.rifleFireRate = 0.2f;
     }
 }

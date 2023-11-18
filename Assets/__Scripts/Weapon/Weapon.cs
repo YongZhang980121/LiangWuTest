@@ -35,6 +35,11 @@ public class Weapon : MonoBehaviour
         throw new System.NotImplementedException();
     }
     
+    public virtual void Setup()
+    {
+        throw new System.NotImplementedException();
+    }
+    
     private IEnumerator GunKick(float angle)
     {
         Vector3 originalPosition = weaponTransform.localPosition;
