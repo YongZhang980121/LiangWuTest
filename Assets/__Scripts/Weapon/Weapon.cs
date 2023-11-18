@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    public GameObject projectilePrefab;
+    public Bullet projectilePrefab;
     public Transform firePoint;
     public float projectileSpeed;
     public float fireRate;

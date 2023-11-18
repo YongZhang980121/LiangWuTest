@@ -6,6 +6,7 @@ using UnityEngine;
 public class BattleManager : MonoBehaviour
 {
     public Transform canvasTransform;
+    public Transform rifleBulletHolder;
     private void Awake()
     {
          Application.targetFrameRate = 120;
