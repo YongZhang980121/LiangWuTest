@@ -3,8 +3,355 @@
   <component name="ChangeListManager">
     <list default="true" id="94b3a175-5be0-47f6-895d-93bf3cd5cb94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiangWuTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiangWuTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/!Start_Here.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/!Start_Here.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/2DRenderer-URP-Package-2021.2+.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/2DRenderer-URP-Package.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/AllIn1SpriteShaderAssembly.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/AllIn1SpriteShaderAssembly.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Alpha Cutoff.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Alpha Cutoff.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/AlphaCutoff.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/AlphaCutoff.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/AtlasSpriteBoy.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/AtlasSpriteBoy.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Blur.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Blur.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Blur.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Blur.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Burn.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Burn.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Burn.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Burn.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/BurningSoldier.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/BurningSoldier.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/BurningSoldier.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/BurningSoldier.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/CrazyPattern.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/CrazyPattern.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/CrazyPattern.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/CrazyPattern.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/CustomGradient.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/CustomGradient.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/CustomGradient.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/CustomGradient.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Fade.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Fade.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Fade.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Fade.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Fill Amount 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Fill Amount 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Fill Amount.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Fill Amount.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/FillAmount.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/FillAmount.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Fish Eye.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Fish Eye.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Frame.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Frame.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Hallucination.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Hallucination.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Hit Effect 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Hit Effect 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Hit Effect.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Hit Effect.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/HitEffect.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/HitEffect.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Hologram.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Hologram.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/IceSoldier.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/IceSoldier.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/IceSoldier.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/IceSoldier.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Impact.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Impact.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Impact1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Impact1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/MotionBlur.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/MotionBlur.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Offset.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Offset.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Offset.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Offset.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Original.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Original.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Posterize.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Posterize.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Posterize.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Posterize.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/RadialFillAmount.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/RadialFillAmount.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/RadialFillAmount.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/RadialFillAmount.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Rotate.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Rotate.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Rotate.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Rotate.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/ScreenHit.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/ScreenHit.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/ScreenHit.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/ScreenHit.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Shield Soldier.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Shield Soldier.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/ShieldSparksPS.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/ShieldSparksPS.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Shine.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Shine.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Shine.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Shine.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/ShinyBoy.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/ShinyBoy.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Soldier.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Soldier.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/SoldierRun.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/SoldierRun.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Sprite.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Sprite.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Teleport.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Teleport.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Twist 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Twist 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Twist.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Twist.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Twist.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Twist.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/TwistDisappear.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/TwistDisappear.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Zoom.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Zoom.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Zoom.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/Zoom.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/hpBar.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Animation/hpBar.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Demo2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Demo2.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Fonts/CaviarDreams.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Fonts/CaviarDreams.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Fonts/CaviarDreams_Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Fonts/CaviarDreams_Bold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Fonts/PoetsenOne-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Fonts/PoetsenOne-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/Color Ramp Gradient.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/Color Ramp Gradient.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/DemoGradient.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/DemoGradient.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/Fire.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/Fire.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/FireSoldier.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/FireSoldier.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/Ice.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/Ice.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/IceSoldier.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/IceSoldier.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/MagicRing.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/MagicRing.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/Outline1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/Outline1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/Shield.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/Shield.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/ShieldSoldier.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/ShieldSoldier.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/SnowFlake.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/SnowFlake.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/Sparks.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Materials/Sparks.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/PostProcessProfiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/PostProcessProfiles/AllIn1PostProcessing.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/PostProcessProfiles/AllIn1PostProcessing.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Prefabs/1.Color Effects.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Prefabs/1.Color Effects.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Prefabs/2.UV Effefcts.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Prefabs/2.UV Effefcts.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Prefabs/3.Effect Combinations.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Prefabs/3.Effect Combinations.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/All1ShaderDemoController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/All1ShaderDemoController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/All1TextureOffsetOverTime.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/All1TextureOffsetOverTime.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/AllIn1ScrollProperty.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/AllIn1ScrollProperty.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/Demo2AutoScroll.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/Demo2AutoScroll.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/DemoCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/DemoCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/DemoCircleExpositor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/DemoCircleExpositor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/DemoItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/DemoItem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/DemoRandomColorSwap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/DemoRandomColorSwap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/DemoRepositionExpositor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Scripts/DemoRepositionExpositor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/BoyGirl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/BoyGirl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/Circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/Circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/IceTexture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/IceTexture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/Magic1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/Magic1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/Magic2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/Magic2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/backMountain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/backMountain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/coals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/coals.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/coalsEmissive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/coalsEmissive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/flag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/flag.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/flameShape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/flameShape.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/grass.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/shield.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/shieldGlow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/shieldGlow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/snowFlake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/snowFlake.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/spaceSoldier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/spaceSoldier.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/spaceSoldierColorSwap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/spaceSoldierColorSwap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/spaceSoldierGlow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/spaceSoldierGlow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/spaceSoldierHelmetTopMask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/spaceSoldierHelmetTopMask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/spaceSoldierNormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/spaceSoldierNormal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/spark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/spark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/splotch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/splotch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/sunDoodle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/sunDoodle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/water.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Demo/Textures/water.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Documentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Documentation.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Editor/AllIn1ShaderGradientDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Editor/AllIn1ShaderGradientDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Editor/AllIn1ShaderScriptEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Editor/AllIn1ShaderScriptEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Editor/AllIn1SpriteShaderMaterialInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Editor/AllIn1SpriteShaderMaterialInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Editor/AllIn1SpriteShaderUiMaskMaterialInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Editor/AllIn1SpriteShaderUiMaskMaterialInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Materials/EmptyMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Materials/EmptyMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Materials/ScaledTIme.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Materials/ScaledTIme.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Materials/UIStencil.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Materials/UIStencil.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Resources/AllIn1OneShaderFunctions.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Resources/AllIn1OneShaderFunctions.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Resources/AllIn1SpriteShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Resources/AllIn1SpriteShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Resources/AllIn1SpriteShaderScaledTime.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Resources/AllIn1SpriteShaderScaledTime.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Resources/AllIn1SpriteShaderUiMask.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Resources/AllIn1SpriteShaderUiMask.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Resources/AllIn1SpriteShaderUiMaskScaledTime.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Resources/AllIn1SpriteShaderUiMaskScaledTime.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/All1CreateUnifiedOutline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/All1CreateUnifiedOutline.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/AllIn1Shader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/AllIn1Shader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/AllIn1ShaderWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/AllIn1ShaderWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/RandomSeed.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/RandomSeed.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/SetAtlasUvs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/SetAtlasUvs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/SetGlobalTimeNew.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/SetGlobalTimeNew.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/SetGlobalTimeUnity2018.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Scripts/SetGlobalTimeUnity2018.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/CustomEditorImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/CustomEditorImage.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/gradientTexture_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/gradientTexture_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/gradientTexture_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/gradientTexture_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-bumbleberry.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-bumbleberry.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-cool.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-cool.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-downwell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-downwell.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-earthy.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-earthy.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-gameboy-pop-1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-gameboy-pop-1x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-gameboy.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-gameboy.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-metroid-ii-sgb-1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-metroid-ii-sgb-1x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-mist-gb-1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-mist-gb-1x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-neapolitan.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-neapolitan.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-nintendo-gameboy-bgb-1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-nintendo-gameboy-bgb-1x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-nintendo-gameboy-black-zero-1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-nintendo-gameboy-black-zero-1x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-platinum-1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/palette-platinum-1x.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/shadeRamp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/shadeRamp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/toonShadeRamp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/GradientTextures/toonShadeRamp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/NormalMaps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/NormalMaps/spaceSoldierNormalMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/NormalMaps/spaceSoldierNormalMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/UVChecker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/UVChecker.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/fire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/fire.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/fire2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/fire2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/flameNoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/flameNoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/flameNoise2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/flameNoise2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/gradient.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/gradient2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/gradient2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/rainbow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/rainbow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/seamlessNoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/seamlessNoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/toonSeamlessNoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/toonSeamlessNoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/AllIn1SpriteShader/Textures/white.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Enemy/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Enemy/EnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/EnemyManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Bullet/RifleBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Bullet/RifleBullet.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +433,8 @@
       <workItem from="1700316900064" duration="1238000" />
       <workItem from="1700332805038" duration="1686000" />
       <workItem from="1700395919245" duration="3725000" />
-      <workItem from="1700403175423" duration="620000" />
+      <workItem from="1700403175423" duration="910000" />
+      <workItem from="1700416449117" duration="2142000" />
     </task>
     <servers />
   </component>

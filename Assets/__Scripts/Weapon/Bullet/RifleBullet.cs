@@ -7,6 +7,7 @@ using UnityEngine;
 public class RifleBullet : Bullet
 {
     private Tween lifeTimeTween;
+    private Tween glowTween;
     private void OnEnable()
     {
         lifeTimeTween = DOVirtual.DelayedCall(2f, () =>
@@ -23,21 +24,31 @@ public class RifleBullet : Bullet
             Enemy enemy = other.gameObject.GetComponent<Enemy>();
             enemy.TakeDamage(Global.rifleDamage);
 
-            // 计算击退方向
             Vector2 knockbackDirection = (other.transform.position - transform.position).normalized;
 
-            // 设置击退距离和时间
             float knockbackDistance = 50f;
             float knockbackDuration = 0.2f;
 
-            // 如果之前的动画还在进行，则先停止它
             if (enemy.KnockbackTween != null && enemy.KnockbackTween.IsActive())
             {
                 enemy.KnockbackTween.Kill();
             }
 
-            // 开始新的击退动画
             enemy.KnockbackTween = other.transform.DOMove((Vector2)other.transform.position + knockbackDirection * knockbackDistance, knockbackDuration);
+            
+            if (glowTween != null)
+            {
+                glowTween.Kill();
+            }
+
+            enemy.spriteImage.material.SetFloat("_Glow", 0f);
+            
+            glowTween = DOTween.To(() => enemy.spriteImage.material.GetFloat("_Glow"), x => enemy.spriteImage.material.SetFloat("_Glow", x), 3f, knockbackDuration / 2)
+                .SetLoops(2, LoopType.Yoyo)
+                .SetEase(Ease.InOutSine).OnComplete(() =>
+                {
+                    glowTween = null;
+                });
         }
     }
 

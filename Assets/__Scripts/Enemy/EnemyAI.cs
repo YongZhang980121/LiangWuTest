@@ -23,7 +23,7 @@ public class EnemyAI : MonoBehaviour
         InvokeRepeating("UpdatePath", 0f, 0.5f); // 每0.5秒更新一次路径
     }
 
-    void UpdatePath()
+    public void UpdatePath()
     {
         if (seeker.IsDone())
             seeker.StartPath(rb.position, target.position, OnPathComplete);

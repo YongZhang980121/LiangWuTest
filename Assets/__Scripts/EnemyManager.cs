@@ -34,7 +34,7 @@ public class EnemyManager : MonoBehaviour
     public void TrySpawningEnemy()
     {
         SpawnEnemy();
-        DOVirtual.DelayedCall(1f, () =>
+        DOVirtual.DelayedCall(5f, () =>
         {
             TrySpawningEnemy();
         });
