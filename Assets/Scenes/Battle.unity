@@ -542,10 +542,10 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8183192}
+  - {fileID: 1059371945}
   - {fileID: 854787267}
   - {fileID: 1750968331}
   - {fileID: 1313302093}
-  - {fileID: 1059371945}
   - {fileID: 1187454363}
   - {fileID: 1308674897}
   m_Father: {fileID: 0}
@@ -998,6 +998,7 @@ GameObject:
   - component: {fileID: 1308674896}
   - component: {fileID: 1308674899}
   - component: {fileID: 1308674898}
+  - component: {fileID: 1308674900}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -1067,6 +1068,20 @@ MonoBehaviour:
   spawnRangeY: {x: -1000, y: 1000}
   player: {fileID: 854787266}
   safeDistance: 200
+--- !u!114 &1308674900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308674895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 056a4d90115ef7d449a7901b03d895de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shellPrefab: {fileID: 5348391670352799810, guid: 3c7e354e297c2d74b9c8cc98dc748941,
+    type: 3}
 --- !u!1 &1313302092
 GameObject:
   m_ObjectHideFlags: 0
