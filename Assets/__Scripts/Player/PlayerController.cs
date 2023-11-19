@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     {
         input = new PlayerInput();
         jumping = false;
+        Global.playerController = this;
     }
 
     private void OnEnable()

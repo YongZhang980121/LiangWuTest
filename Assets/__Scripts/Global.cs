@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public static class Global
@@ -9,6 +10,7 @@ public static class Global
     public static EnemyManager enemyManager;
     public static WeaponController weaponController;
     public static BulletShellManager bulletShellManager;
+    public static PlayerController playerController;
 
     public static float enemyHp;
     public static float rifleDamage;
