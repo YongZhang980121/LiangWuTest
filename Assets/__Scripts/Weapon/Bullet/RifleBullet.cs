@@ -20,7 +20,24 @@ public class RifleBullet : Bullet
         OnHit();
         if (other.gameObject.CompareTag("Enemy"))
         {
-            other.gameObject.GetComponent<Enemy>().TakeDamage(Global.rifleDamage);
+            Enemy enemy = other.gameObject.GetComponent<Enemy>();
+            enemy.TakeDamage(Global.rifleDamage);
+
+            // 计算击退方向
+            Vector2 knockbackDirection = (other.transform.position - transform.position).normalized;
+
+            // 设置击退距离和时间
+            float knockbackDistance = 50f;
+            float knockbackDuration = 0.2f;
+
+            // 如果之前的动画还在进行，则先停止它
+            if (enemy.KnockbackTween != null && enemy.KnockbackTween.IsActive())
+            {
+                enemy.KnockbackTween.Kill();
+            }
+
+            // 开始新的击退动画
+            enemy.KnockbackTween = other.transform.DOMove((Vector2)other.transform.position + knockbackDirection * knockbackDistance, knockbackDuration);
         }
     }
 

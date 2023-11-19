@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     public float health;
     private Sequence wobbleSequence;
     public Image spriteImage;
+    public Tween KnockbackTween { get; set; }
     private void OnEnable()
     {
         health = Global.enemyHp;
