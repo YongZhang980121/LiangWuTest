@@ -8,6 +8,7 @@ public class BattleManager : MonoBehaviour
     public Transform canvasTransform;
     public Transform rifleBulletHolder;
     public Transform enemyHolder;
+    public Transform slimeHolder;
     private void Awake()
     {
          Application.targetFrameRate = 120;

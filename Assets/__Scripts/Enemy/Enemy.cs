@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class Enemy : MonoBehaviour
     public Image spriteImage;
     private Material originalMaterial;
     public EnemyAI enemyAI;
+    private Coroutine slimeCoroutine;
+    public Transform slimePosition;
     public Tween KnockbackTween { get; set; }
     private void OnEnable()
     {
@@ -23,6 +26,7 @@ public class Enemy : MonoBehaviour
         spriteImage.material.SetFloat("_FadeAmount", -0.1f);
         ResetObjectState();
         enemyAI.enabled = true;
+        slimeCoroutine = StartCoroutine(SpawnSlimeRoutine());
     }
 
     private void OnDisable()
@@ -36,6 +40,10 @@ public class Enemy : MonoBehaviour
         spriteImage.material.SetFloat("_Glow", 0f);
         spriteImage.material.SetFloat("_FadeAmount", -0.1f);
         KnockbackTween.Kill();
+        if (slimeCoroutine != null)
+        {
+            StopCoroutine(slimeCoroutine);
+        }
     }
     
     private void ResetAndStartWobbleAnimation()
@@ -63,6 +71,10 @@ public class Enemy : MonoBehaviour
 
     public void Kill()
     {
+        if (slimeCoroutine != null)
+        {
+            StopCoroutine(slimeCoroutine);
+        }
         MeltAndDisappear();
     }
     
@@ -112,5 +124,23 @@ public class Enemy : MonoBehaviour
 
         // 重置其他可能被改变的状态
         // ...
+    }
+    
+    IEnumerator SpawnSlimeRoutine()
+    {
+        while (true)
+        {
+            var randomInterval = Random.Range(0.2f, 0.5f);
+            yield return new WaitForSeconds(randomInterval); // 每3秒生成一次
+            SpawnSlime();
+        }
+    }
+
+    private void SpawnSlime()
+    {
+        GameObject slime = Global.enemyManager.GetSlime();
+        slime.transform.SetParent(Global.battleManager.slimeHolder);
+        slime.transform.position = slimePosition.position; // 设置粘液的位置
+        slime.SetActive(true);
     }
 }

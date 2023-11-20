@@ -11,6 +11,8 @@ public class EnemyManager : MonoBehaviour
     public Vector2 spawnRangeY = new Vector2(-10, 10); // Y range for spawning
     public GameObject player; // Reference to the player GameObject
     public float safeDistance = 5f; // Safe distance from the player
+    public GameObject slimePrefab; // 粘液预制体
+    public IObjectPool<GameObject> slimePool;
 
     private IObjectPool<Enemy> enemyPool;
 
@@ -24,11 +26,30 @@ public class EnemyManager : MonoBehaviour
             actionOnRelease: (obj) => obj.gameObject.SetActive(false),
             actionOnDestroy: (obj) => Destroy(obj.gameObject),
             collectionCheck: false,
-            defaultCapacity: 50,
-            maxSize: 100
+            defaultCapacity: 25,
+            maxSize: 50
         );
+        
+        slimePool = new ObjectPool<GameObject>(
+            createFunc: () => Instantiate(slimePrefab),
+            actionOnGet: (obj) => obj.SetActive(true),
+            actionOnRelease: (obj) => obj.SetActive(false),
+            actionOnDestroy: (obj) => Destroy(obj),
+            collectionCheck: false, // 可根据需要设置为true以进行额外的错误检查
+            defaultCapacity: 20, // 初始容量
+            maxSize: 40); // 最大容量
 
         TrySpawningEnemy();
+    }
+    
+    public GameObject GetSlime()
+    {
+        return slimePool.Get();
+    }
+
+    public void ReturnSlime(GameObject slime)
+    {
+        slimePool.Release(slime);
     }
 
     public void TrySpawningEnemy()
