@@ -10,8 +10,6 @@ public class Weapon : MonoBehaviour
 {
     public Bullet projectilePrefab;
     public Transform firePoint;
-    public float projectileSpeed;
-    public float fireRate;
     public float kickbackDistance;
     public float kickbackDuration;
     private Coroutine gunKickCoroutine;

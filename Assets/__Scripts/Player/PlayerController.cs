@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
     private PlayerInput input;
     private Vector2 moveVector = Vector2.zero;
     public new Rigidbody2D rigidbody;
-    public float moveSpeed;
     private bool jumping;
     public Transform spriteTransform;
     public WeaponController weaponController;
@@ -79,7 +78,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        rigidbody.velocity = moveVector * moveSpeed;
+        rigidbody.velocity = moveVector * Global.moveSpeed;
         UpdateCharacterFace(moveVector);
         if (moveVector.magnitude > 0)
         {

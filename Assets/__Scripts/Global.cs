@@ -23,4 +23,7 @@ public static class Global
     public static float scatterAngle;
     public static int ammo;
     public static float score;
+    public static float numOfEnemyPerMinute;
+    public static float bulletSpeed;
+    public static float moveSpeed;
 }

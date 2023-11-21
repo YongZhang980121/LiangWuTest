@@ -8,6 +8,11 @@
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Enemy/Enemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/EnemyManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Global.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Global.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/UI/Powerup/PowerUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/UI/Powerup/PowerUp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/UI/Powerup/PowerUpManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/UI/Powerup/PowerUpManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Rifle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Rifle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Weapon.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +100,8 @@
       <workItem from="1700416449117" duration="2503000" />
       <workItem from="1700465997364" duration="3614000" />
       <workItem from="1700497496123" duration="5365000" />
-      <workItem from="1700559115288" duration="13109000" />
+      <workItem from="1700559115288" duration="13867000" />
+      <workItem from="1700592925184" duration="3102000" />
     </task>
     <servers />
   </component>

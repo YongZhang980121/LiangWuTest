@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     public Tween KnockbackTween { get; set; }
     private void OnEnable()
     {
-        health = Global.enemyHp;
+        health = Global.enemyHp + Global.chaos;
         ResetAndStartWobbleAnimation();
         originalMaterial = spriteImage.material;
         spriteImage.material = new Material(originalMaterial);

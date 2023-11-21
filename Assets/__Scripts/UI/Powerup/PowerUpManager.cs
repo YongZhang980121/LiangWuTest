@@ -136,7 +136,7 @@ public class PowerUpManager : MonoBehaviour
                 powerUp.scatterAngleModifier -= score;
                 powerUp.bulletSpeedModifier += score;
 
-                powerUp.damageModifier -= score;
+                powerUp.damageModifier -= 6;
 
                 powerUp.ActiveContent(3);
                 powerUp.contents[0].contentDescription.text = "弹道控制";
@@ -151,7 +151,7 @@ public class PowerUpManager : MonoBehaviour
                 powerUp.fireRateModifier -= score;
                 powerUp.bulletSpeedModifier += score;
 
-                powerUp.scatterAngleModifier += score;
+                powerUp.scatterAngleModifier += 10;
 
                 powerUp.ActiveContent(3);
                 powerUp.contents[0].contentDescription.text = "射速";
@@ -165,7 +165,7 @@ public class PowerUpManager : MonoBehaviour
             case PowerUpType.QiangTuo:
                 powerUp.moveSpeedModifier += score;
 
-                powerUp.scatterAngleModifier += score;
+                powerUp.scatterAngleModifier += 10;
 
                 powerUp.ActiveContent(2);
                 powerUp.contents[0].contentDescription.text = "移动速度";
@@ -178,7 +178,7 @@ public class PowerUpManager : MonoBehaviour
                 powerUp.ammoModifier += score;
                 powerUp.reloadTimeModifier -= score;
 
-                powerUp.moveSpeedModifier -= score;
+                powerUp.moveSpeedModifier -= 10;
 
                 powerUp.ActiveContent(3);
                 powerUp.contents[0].contentDescription.text = "弹夹上限";
@@ -192,7 +192,7 @@ public class PowerUpManager : MonoBehaviour
             case PowerUpType.DanYao:
                 powerUp.damageModifier += score;
 
-                powerUp.reloadTimeModifier += score;
+                powerUp.reloadTimeModifier += 10;
 
                 powerUp.ActiveContent(2);
                 powerUp.contents[0].contentDescription.text = "子弹伤害";
@@ -205,7 +205,7 @@ public class PowerUpManager : MonoBehaviour
                 powerUp.scatterAngleModifier -= score;
                 powerUp.fireRateModifier -= score;
 
-                powerUp.moveSpeedModifier -= score;
+                powerUp.moveSpeedModifier -= 10;
 
                 powerUp.ActiveContent(3);
                 powerUp.contents[0].contentDescription.text = "弹道控制";
@@ -223,10 +223,10 @@ public class PowerUpManager : MonoBehaviour
 
     private Quality DetermineQuality(float score)
     {
-        if (score >= 1000) return Quality.Legend;
-        else if (score >= 750) return Quality.Epic;
-        else if (score >= 500) return Quality.Rare;
-        else if (score >= 250) return Quality.UnCommon;
+        if (score >= 40) return Quality.Legend;
+        else if (score >= 30) return Quality.Epic;
+        else if (score >= 20) return Quality.Rare;
+        else if (score >= 10) return Quality.UnCommon;
         else return Quality.Common;
     }
 }
