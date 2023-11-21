@@ -2,12 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PowerUp : MonoBehaviour
 {
-    public string powerUpName;
+    public TMP_Text powerUpName;
     public float damageModifier;
     public float scatterAngleModifier;
     public float bulletSpeedModifier;
@@ -21,6 +22,15 @@ public class PowerUp : MonoBehaviour
     public List<Content> contents;
     public Image frontBackground;
     public Image backBackground;
+    public Button button;
+    public bool chosen;
+
+    private void Awake()
+    {
+        button.onClick.RemoveAllListeners();
+        button.onClick.AddListener(Onclick);
+        button.interactable = false;
+    }
 
     public void Reset()
     {
@@ -29,6 +39,8 @@ public class PowerUp : MonoBehaviour
             content.Reset();
             content.gameObject.SetActive(false);
         }
+
+        chosen = false;
     }
 
     public void ActiveContent(int num)
@@ -51,7 +63,16 @@ public class PowerUp : MonoBehaviour
 
     private void Start()
     {
-        DOVirtual.DelayedCall(2f, () =>
+        
+    }
+
+    public void Show()
+    {
+        front.gameObject.SetActive(false);
+        front.DOScale(1f, 0f);
+        back.gameObject.SetActive(true);
+        back.DOLocalMoveY(back.localPosition.y, 0.75f).From(back.localPosition.y - 500f).SetUpdate(true).SetEase(Ease.OutBack);
+        back.DOScale(1f, 0.75f).From(0f).SetUpdate(true).SetEase(Ease.OutBack).OnComplete(() =>
         {
             Flip();
         });
@@ -92,6 +113,37 @@ public class PowerUp : MonoBehaviour
 
         Global.ammo += (int)(ammoModifier / 10);
         Global.ammo = Mathf.Max(1, Global.ammo);
+        
+        Global.uiManager.UpdateMaxAmmo();
+    }
+
+    public void Onclick()
+    {
+        chosen = true;
+        ApplyData();
+        Global.score = 0;
+        Global.chest.UpdateValueText();
+        front.DOScale(1.2f, 0.5f).SetEase(Ease.OutBack).SetUpdate(true).OnComplete(() =>
+        {
+            front.DOScale(0f, 0.5f).SetEase(Ease.InBack).SetUpdate(true).OnComplete(() =>
+            {
+                Global.chest.StartReload();
+                Time.timeScale = 1f;
+                Global.playerController.input.Enable();
+            });
+        });
+        Global.powerUpManager.Onclick();
+    }
+
+    public void Disappear()
+    {
+        if (!chosen)
+        {
+            front.DOScale(0f, 0.5f).SetEase(Ease.Linear).SetUpdate(true).OnComplete(() =>
+            {
+                gameObject.SetActive(false);
+            });
+        }
     }
     
     
@@ -100,12 +152,15 @@ public class PowerUp : MonoBehaviour
     {
         front.gameObject.SetActive(false);
         back.gameObject.SetActive(true);
-        back.DOScaleX(0, 0.5f).From(1f).SetEase(Ease.Linear).SetUpdate(true).OnComplete(() =>
+        back.DOScaleX(0, 0.25f).From(1f).SetEase(Ease.Linear).SetUpdate(true).OnComplete(() =>
         {
             back.gameObject.SetActive(false);
             front.gameObject.SetActive(true);
 
-            front.DOScaleX(1f, 0.5f).From(0f).SetEase(Ease.Linear).SetUpdate(true);
+            front.DOScaleX(1f, 0.25f).From(0f).SetEase(Ease.Linear).SetUpdate(true).OnComplete(() =>
+            {
+                button.interactable = true;
+            });
         });
     }
 }

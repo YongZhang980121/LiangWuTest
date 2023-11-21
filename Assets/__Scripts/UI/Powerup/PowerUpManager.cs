@@ -39,10 +39,24 @@ public class PowerUpManager : MonoBehaviour
     {
         Global.powerUpManager = this;
     }
+    
 
-    public void GeneratePowerUp(float score, PowerUp powerUp)
+    public void TryGeneratePowerUp()
+    {
+        Time.timeScale = 0f;
+        Global.playerController.input.Disable();
+        foreach (var powerUp in powerUps)
+        {
+            powerUp.gameObject.SetActive(true);
+            GeneratePowerUp(Global.score, powerUp);
+            powerUp.Show();
+        }
+    }
+
+    private void GeneratePowerUp(float score, PowerUp powerUp)
     {
         var powerUpType = (PowerUpType)Random.Range(0, System.Enum.GetValues(typeof(PowerUpType)).Length);
+        Debug.Log(powerUpType);
         var quality = DetermineQuality(score);
         ModifyName(powerUpType, powerUp);
         ModifyData(powerUpType, powerUp, score);
@@ -124,7 +138,7 @@ public class PowerUpManager : MonoBehaviour
                 throw new ArgumentOutOfRangeException(nameof(type), type, null);
         }
 
-        powerUp.powerUpName = powerUpName;
+        powerUp.powerUpName.text = powerUpName;
     }
 
     public void ModifyData(PowerUpType type, PowerUp powerUp, float score)
@@ -136,7 +150,7 @@ public class PowerUpManager : MonoBehaviour
                 powerUp.scatterAngleModifier -= score;
                 powerUp.bulletSpeedModifier += score;
 
-                powerUp.damageModifier -= 6;
+                powerUp.damageModifier -= 4;
 
                 powerUp.ActiveContent(3);
                 powerUp.contents[0].contentDescription.text = "弹道控制";
@@ -183,7 +197,7 @@ public class PowerUpManager : MonoBehaviour
                 powerUp.ActiveContent(3);
                 powerUp.contents[0].contentDescription.text = "弹夹上限";
                 powerUp.contents[0].positive = true;
-                powerUp.contents[1].contentDescription.text = "换弹时间";
+                powerUp.contents[1].contentDescription.text = "换弹速度";
                 powerUp.contents[1].positive = true;
                 powerUp.contents[2].contentDescription.text = "移动速度";
                 powerUp.contents[2].positive = false;
@@ -197,7 +211,7 @@ public class PowerUpManager : MonoBehaviour
                 powerUp.ActiveContent(2);
                 powerUp.contents[0].contentDescription.text = "子弹伤害";
                 powerUp.contents[0].positive = true;
-                powerUp.contents[1].contentDescription.text = "换弹时间";
+                powerUp.contents[1].contentDescription.text = "换弹速度";
                 powerUp.contents[1].positive = false;
 
                 break;
@@ -228,5 +242,13 @@ public class PowerUpManager : MonoBehaviour
         else if (score >= 20) return Quality.Rare;
         else if (score >= 10) return Quality.UnCommon;
         else return Quality.Common;
+    }
+
+    public void Onclick()
+    {
+        foreach (var powerUp in powerUps)
+        {
+            powerUp.Disappear();
+        }
     }
 }

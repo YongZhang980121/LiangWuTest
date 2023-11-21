@@ -77,10 +77,10 @@ public class EnemyManager : MonoBehaviour
     public void TrySpawningEnemy()
     {
         SpawnEnemy();
-        DOVirtual.DelayedCall((60f / Global.numOfEnemyPerMinute + Global.chaos*2), () =>
+        DOVirtual.DelayedCall((60f / (Global.numOfEnemyPerMinute + Global.chaos*2)), () =>
         {
             TrySpawningEnemy();
-        });
+        }).SetUpdate(false);
     }
 
     public void SpawnEnemy()

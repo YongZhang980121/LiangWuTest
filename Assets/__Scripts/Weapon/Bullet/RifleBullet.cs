@@ -45,7 +45,7 @@ public class RifleBullet : Bullet
             
             glowTween = DOTween.To(() => enemy.spriteImage.material.GetFloat("_Glow"), x => enemy.spriteImage.material.SetFloat("_Glow", x), 3f, knockbackDuration / 2)
                 .SetLoops(2, LoopType.Yoyo)
-                .SetEase(Ease.InOutSine).OnComplete(() =>
+                .SetEase(Ease.InOutSine).SetUpdate(false).OnComplete(() =>
                 {
                     glowTween = null;
                 });

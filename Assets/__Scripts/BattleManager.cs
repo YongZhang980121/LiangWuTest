@@ -15,7 +15,7 @@ public class BattleManager : MonoBehaviour
     {
          Application.targetFrameRate = 120;
          Global.battleManager = this;
-         Global.enemyHp = 5f;
+         Global.enemyHp = 10f;
          Global.rifleDamage = 10f;
          Global.rifleFireRate = 0.25f;
          Global.chaos = 0f;
@@ -24,7 +24,7 @@ public class BattleManager : MonoBehaviour
          Global.rifleReloadTime = 2f;
          Global.score = 0f;
          Global.chaos = 0f;
-         Global.numOfEnemyPerMinute = 20;
+         Global.numOfEnemyPerMinute = 40;
          Global.bulletSpeed = 3000f;
          Global.moveSpeed = 500f;
     }
@@ -32,6 +32,8 @@ public class BattleManager : MonoBehaviour
     private void Start()
     {
         IncrementChaos();
+        Global.uiManager.UpdateMaxAmmo();
+        Global.chest.UpdateValueText();
     }
 
     private void IncrementChaos()

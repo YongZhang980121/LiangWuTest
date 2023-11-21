@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    private PlayerInput input;
+    public PlayerInput input;
     private Vector2 moveVector = Vector2.zero;
     public new Rigidbody2D rigidbody;
     private bool jumping;

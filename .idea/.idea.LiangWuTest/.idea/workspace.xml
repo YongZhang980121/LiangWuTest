@@ -3,16 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="94b3a175-5be0-47f6-895d-93bf3cd5cb94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiangWuTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiangWuTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AstarPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AstarPath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/SourceHanSansSC-VF (1) SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Import/SourceHanSansSC-VF (1) SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/PowerUp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/PowerUp.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Prefab/RifleBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Prefab/RifleBullet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Chest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Chest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Enemy/Enemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/EnemyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Global.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Global.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Player/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/UI/Powerup/PowerUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/UI/Powerup/PowerUp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/UI/Powerup/PowerUpManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/UI/Powerup/PowerUpManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Rifle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Rifle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Bullet/RifleBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Bullet/RifleBullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Enemy/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Enemy/Slime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Player/PlayerCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/UI/Powerup/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/UI/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Weapon/Bullet/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
@@ -101,7 +109,7 @@
       <workItem from="1700465997364" duration="3614000" />
       <workItem from="1700497496123" duration="5365000" />
       <workItem from="1700559115288" duration="13867000" />
-      <workItem from="1700592925184" duration="3102000" />
+      <workItem from="1700592925184" duration="10172000" />
     </task>
     <servers />
   </component>

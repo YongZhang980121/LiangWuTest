@@ -93,6 +93,7 @@ public class Enemy : MonoBehaviour
             score.transform.DOMove(Global.chest.transform.position, duration).SetEase(Ease.InSine).OnComplete(() =>
             {
                 Global.score += 1;
+                Global.chest.UpdateValueText();
                 Global.enemyManager.ReturnScore(score);
             });
         });
