@@ -12,6 +12,7 @@ public static class Global
     public static BulletShellManager bulletShellManager;
     public static PlayerController playerController;
     public static PowerUpManager powerUpManager;
+    public static UIManager uiManager;
 
     public static float enemyHp;
     public static float rifleDamage;

@@ -29,6 +29,7 @@ public class Weapon : MonoBehaviour
     private void Start()
     {
         currentAmmo = Global.ammo;
+        Global.uiManager.UpdateCurrentAmmo(currentAmmo);
         reloading = false;
     }
 
@@ -38,6 +39,7 @@ public class Weapon : MonoBehaviour
         Global.weaponController.Reload(() =>
         {
             currentAmmo = Global.ammo;
+            Global.uiManager.UpdateCurrentAmmo(currentAmmo);
             reloading = false;
         });
     }
@@ -58,6 +60,7 @@ public class Weapon : MonoBehaviour
         }
         FireProjectile(angle);
         currentAmmo -= 1;
+        Global.uiManager.UpdateCurrentAmmo(currentAmmo);
         if (gunKickCoroutine != null)
         {
             StopCoroutine(gunKickCoroutine);
