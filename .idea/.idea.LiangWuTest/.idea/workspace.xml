@@ -4,6 +4,9 @@
     <list default="true" id="94b3a175-5be0-47f6-895d-93bf3cd5cb94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiangWuTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiangWuTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/EnemyManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Global.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Global.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +95,7 @@
       <workItem from="1700416449117" duration="2503000" />
       <workItem from="1700465997364" duration="3614000" />
       <workItem from="1700497496123" duration="5365000" />
-      <workItem from="1700559115288" duration="10380000" />
+      <workItem from="1700559115288" duration="13109000" />
     </task>
     <servers />
   </component>

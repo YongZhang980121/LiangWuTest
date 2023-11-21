@@ -13,6 +13,7 @@ public static class Global
     public static PlayerController playerController;
     public static PowerUpManager powerUpManager;
     public static UIManager uiManager;
+    public static Chest chest;
 
     public static float enemyHp;
     public static float rifleDamage;
@@ -21,4 +22,5 @@ public static class Global
     public static float rifleReloadTime;
     public static float scatterAngle;
     public static int ammo;
+    public static float score;
 }
