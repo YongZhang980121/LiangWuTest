@@ -16,5 +16,7 @@ public class BattleManager : MonoBehaviour
          Global.enemyHp = 30f;
          Global.rifleDamage = 10f;
          Global.rifleFireRate = 0.2f;
+         Global.chaos = 0f;
+         Global.scatterAngle = 10f;
     }
 }

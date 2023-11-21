@@ -11,8 +11,13 @@ public static class Global
     public static WeaponController weaponController;
     public static BulletShellManager bulletShellManager;
     public static PlayerController playerController;
+    public static PowerUpManager powerUpManager;
 
     public static float enemyHp;
     public static float rifleDamage;
     public static float rifleFireRate;
+    public static float chaos;
+    public static float rifleReloadTime;
+    public static float scatterAngle;
+    public static int ammo;
 }

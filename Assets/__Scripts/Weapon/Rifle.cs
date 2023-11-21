@@ -6,10 +6,9 @@ using Random = UnityEngine.Random;
 
 public class Rifle : Weapon
 {
-    public float scatterAngle;
     public override void FireProjectile(float angle)
     {
-        float scatter = Random.Range(-scatterAngle, scatterAngle);
+        float scatter = Random.Range(-Global.scatterAngle, Global.scatterAngle);
         float adjustedAngle = angle + scatter;
 
         Bullet projectile = Global.bulletManager.GetRifleBullet();
