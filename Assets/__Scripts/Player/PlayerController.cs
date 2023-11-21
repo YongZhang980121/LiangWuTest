@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
         while (true)
         {
             weaponController.Fire();
-            yield return new WaitForSeconds(weaponController.currentWeapon.fireRate);
+            yield return new WaitForSeconds(Global.rifleFireRate);
         }
     }
 

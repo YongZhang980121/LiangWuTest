@@ -3,11 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
 
 public class PowerUpManager : MonoBehaviour
 {
     public List<PowerUp> powerUps;
+
+    public Color commonColor;
+    public Color unCommonColor;
+    public Color rareColor;
+    public Color epicColor;
+    public Color legendColor;
+
     public enum PowerUpType
     {
         QiangKou,
@@ -35,23 +43,57 @@ public class PowerUpManager : MonoBehaviour
     public void GeneratePowerUp(float score, PowerUp powerUp)
     {
         var powerUpType = (PowerUpType)Random.Range(0, System.Enum.GetValues(typeof(PowerUpType)).Length);
+        var quality = DetermineQuality(score);
         ModifyName(powerUpType, powerUp);
-        switch (powerUpType)
+        ModifyData(powerUpType, powerUp, score);
+        ModifyQuality(powerUp, quality);
+    }
+
+    public void ModifyQuality(PowerUp powerUp, Quality quality)
+    {
+        Color backgroundColor;
+        int arrowNum = 0;
+        switch (quality)
         {
-            case PowerUpType.QiangKou:
+            case Quality.Common:
+                arrowNum = 1;
+                backgroundColor = commonColor;
                 break;
-            case PowerUpType.QiangGuan:
+            case Quality.UnCommon:
+                arrowNum = 2;
+                backgroundColor = unCommonColor;
                 break;
-            case PowerUpType.QiangTuo:
+            case Quality.Rare:
+                arrowNum = 3;
+                backgroundColor = rareColor;
                 break;
-            case PowerUpType.DanJia:
+            case Quality.Epic:
+                arrowNum = 4;
+                backgroundColor = epicColor;
                 break;
-            case PowerUpType.DanYao:
-                break;
-            case PowerUpType.WoBa:
+            case Quality.Legend:
+                arrowNum = 5;
+                backgroundColor = legendColor;
                 break;
             default:
-                throw new ArgumentOutOfRangeException();
+                throw new ArgumentOutOfRangeException(nameof(quality), quality, null);
+        }
+
+        powerUp.frontBackground.color = backgroundColor;
+        powerUp.backBackground.color = backgroundColor;
+        foreach (var content in powerUp.contents)
+        {
+            if (content.positive)
+            {
+                for (int i = 0; i < arrowNum; i++)
+                {
+                    content.upArrows[i].gameObject.SetActive(true);
+                }
+            }
+            else
+            {
+                content.downArrow.gameObject.SetActive(true);
+            }
         }
     }
 
@@ -84,37 +126,95 @@ public class PowerUpManager : MonoBehaviour
 
         powerUp.powerUpName = powerUpName;
     }
-    
+
     public void ModifyData(PowerUpType type, PowerUp powerUp, float score)
     {
+        powerUp.Reset();
         switch (type)
         {
             case PowerUpType.QiangKou:
                 powerUp.scatterAngleModifier -= score;
-                powerUp.damageModifier -= score;
                 powerUp.bulletSpeedModifier += score;
+
+                powerUp.damageModifier -= score;
+
+                powerUp.ActiveContent(3);
+                powerUp.contents[0].contentDescription.text = "弹道控制";
+                powerUp.contents[0].positive = true;
+                powerUp.contents[1].contentDescription.text = "弹道速度";
+                powerUp.contents[1].positive = true;
+                powerUp.contents[2].contentDescription.text = "子弹伤害";
+                powerUp.contents[2].positive = false;
+
                 break;
             case PowerUpType.QiangGuan:
                 powerUp.fireRateModifier -= score;
                 powerUp.bulletSpeedModifier += score;
+
                 powerUp.scatterAngleModifier += score;
+
+                powerUp.ActiveContent(3);
+                powerUp.contents[0].contentDescription.text = "射速";
+                powerUp.contents[0].positive = true;
+                powerUp.contents[1].contentDescription.text = "弹道速度";
+                powerUp.contents[1].positive = true;
+                powerUp.contents[2].contentDescription.text = "弹道控制";
+                powerUp.contents[2].positive = false;
+
                 break;
             case PowerUpType.QiangTuo:
-                powerUp.scatterAngleModifier -= score;
                 powerUp.moveSpeedModifier += score;
+
+                powerUp.scatterAngleModifier += score;
+
+                powerUp.ActiveContent(2);
+                powerUp.contents[0].contentDescription.text = "移动速度";
+                powerUp.contents[0].positive = true;
+                powerUp.contents[1].contentDescription.text = "弹道控制";
+                powerUp.contents[1].positive = false;
+
                 break;
             case PowerUpType.DanJia:
                 powerUp.ammoModifier += score;
                 powerUp.reloadTimeModifier -= score;
+
+                powerUp.moveSpeedModifier -= score;
+
+                powerUp.ActiveContent(3);
+                powerUp.contents[0].contentDescription.text = "弹夹上限";
+                powerUp.contents[0].positive = true;
+                powerUp.contents[1].contentDescription.text = "换弹时间";
+                powerUp.contents[1].positive = true;
+                powerUp.contents[2].contentDescription.text = "移动速度";
+                powerUp.contents[2].positive = false;
+
                 break;
             case PowerUpType.DanYao:
                 powerUp.damageModifier += score;
+
                 powerUp.reloadTimeModifier += score;
+
+                powerUp.ActiveContent(2);
+                powerUp.contents[0].contentDescription.text = "子弹伤害";
+                powerUp.contents[0].positive = true;
+                powerUp.contents[1].contentDescription.text = "换弹时间";
+                powerUp.contents[1].positive = false;
+
                 break;
             case PowerUpType.WoBa:
                 powerUp.scatterAngleModifier -= score;
                 powerUp.fireRateModifier -= score;
+
                 powerUp.moveSpeedModifier -= score;
+
+                powerUp.ActiveContent(3);
+                powerUp.contents[0].contentDescription.text = "弹道控制";
+                powerUp.contents[0].positive = true;
+                powerUp.contents[1].contentDescription.text = "射速";
+                powerUp.contents[1].positive = true;
+                powerUp.contents[2].contentDescription.text = "移动速度";
+                powerUp.contents[2].positive = false;
+
                 break;
             default:
                 throw new ArgumentOutOfRangeException(nameof(type), type, null);

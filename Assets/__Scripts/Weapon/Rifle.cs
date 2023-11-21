@@ -22,13 +22,4 @@ public class Rifle : Weapon
         
     }
 
-    private void Start()
-    {
-        Setup();
-    }
-
-    public override void Setup()
-    {
-        fireRate = Global.rifleFireRate;
-    }
 }

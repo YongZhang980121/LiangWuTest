@@ -18,5 +18,7 @@ public class BattleManager : MonoBehaviour
          Global.rifleFireRate = 0.2f;
          Global.chaos = 0f;
          Global.scatterAngle = 10f;
+         Global.ammo = 1;
+         Global.rifleReloadTime = 2f;
     }
 }

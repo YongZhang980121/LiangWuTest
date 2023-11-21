@@ -1,18 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using TMPro;
 using UnityEngine;
 
 public class Content : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public TMP_Text contentDescription;
+    public List<Transform> upArrows;
+    public Transform downArrow;
+    public bool positive;
 
-    // Update is called once per frame
-    void Update()
+    public void Reset()
     {
-        
+        foreach (var upArrow in upArrows)
+        {
+            upArrow.gameObject.SetActive(false);
+        }
+        downArrow.gameObject.SetActive(false);
     }
 }

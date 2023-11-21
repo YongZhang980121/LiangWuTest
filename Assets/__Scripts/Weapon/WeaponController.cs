@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WeaponController : MonoBehaviour
 {
@@ -10,11 +12,32 @@ public class WeaponController : MonoBehaviour
     public float rotationSpeed;
     private float currentAngle = 0f;
     public Weapon currentWeapon;
+    public CanvasGroup reloadCanvasGroup;
+    public Transform reload;
+    public Image reloadProgress;
 
     private void Awake()
     {
         currentWeapon = GetComponentInChildren<Weapon>();
         Global.weaponController = this;
+        reload.gameObject.SetActive(false);
+    }
+
+    public void Reload(Action completeAction)
+    {
+        reloadCanvasGroup.DOKill();
+        reloadCanvasGroup.alpha = 1;
+        reload.gameObject.SetActive(true);
+        reloadProgress.fillAmount = 0f;
+        DOTween.To(() => reloadProgress.fillAmount, x => reloadProgress.fillAmount = x, 1.0f, Global.rifleReloadTime).SetEase(Ease.Linear).OnComplete(
+            () =>
+            {
+                completeAction();
+                reloadCanvasGroup.DOFade(0f, 0.3f).From(1f).OnComplete(() =>
+                {
+                    reload.gameObject.SetActive(false);
+                });
+            });
     }
 
     private void Update()
