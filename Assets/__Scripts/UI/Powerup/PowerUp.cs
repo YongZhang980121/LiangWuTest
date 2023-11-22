@@ -119,7 +119,8 @@ public class PowerUp : MonoBehaviour
         Global.rifleFireRate += actualModifierFireRate;
         Global.rifleFireRate = Mathf.Clamp(Global.rifleFireRate, minFireRate, maxFireRate);
 
-        if (Global.ammo > 0)
+        
+        if (ammoModifier > 0)
         {
             Global.ammo += Mathf.Max(1, (int)(ammoModifier / 10));
         }
