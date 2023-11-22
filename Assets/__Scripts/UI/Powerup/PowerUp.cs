@@ -87,7 +87,7 @@ public class PowerUp : MonoBehaviour
 
     public void ApplyData()
     {
-        Global.rifleDamage = Mathf.Max(1, Global.rifleDamage/2 + damageModifier);
+        Global.rifleDamage = Mathf.Max(1, Global.rifleDamage + damageModifier / 2);
         
         float targetValue = 20f;
         float minValue = 0f;
@@ -118,7 +118,7 @@ public class PowerUp : MonoBehaviour
         Global.rifleFireRate += actualModifierFireRate;
         Global.rifleFireRate = Mathf.Clamp(Global.rifleFireRate, minFireRate, maxFireRate);
 
-        Global.ammo += (int)(ammoModifier / 10);
+        Global.ammo += Mathf.Max(1, (int)(ammoModifier / 10));
         Global.ammo = Mathf.Max(1, Global.ammo);
         
         Global.uiManager.UpdateMaxAmmo();
