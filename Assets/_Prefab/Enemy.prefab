@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 20000
+  speed: 30000
   nextWaypointDistance: 1
 --- !u!1 &8672154514253640861
 GameObject:
