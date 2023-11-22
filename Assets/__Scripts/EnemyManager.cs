@@ -29,8 +29,8 @@ public class EnemyManager : MonoBehaviour
             actionOnRelease: (obj) => obj.gameObject.SetActive(false),
             actionOnDestroy: (obj) => Destroy(obj.gameObject),
             collectionCheck: false,
-            defaultCapacity: 25,
-            maxSize: 50
+            defaultCapacity: 50,
+            maxSize: 100
         );
         
         slimePool = new ObjectPool<GameObject>(
@@ -39,8 +39,8 @@ public class EnemyManager : MonoBehaviour
             actionOnRelease: (obj) => obj.SetActive(false),
             actionOnDestroy: (obj) => Destroy(obj),
             collectionCheck: false,
-            defaultCapacity: 20,
-            maxSize: 40);
+            defaultCapacity: 50,
+            maxSize: 150);
         
         scorePool = new ObjectPool<GameObject>(
             createFunc: () => Instantiate(scorePrefab),
