@@ -18,6 +18,7 @@ public class PlayerCollider : MonoBehaviour
             Global.mmfManager.playerGetHit.PlayFeedbacks();
             if (Global.playerHp <= 0)
             {
+                Global.uiManager.GameOver();
                 Debug.Log("gameover");
             }
         }

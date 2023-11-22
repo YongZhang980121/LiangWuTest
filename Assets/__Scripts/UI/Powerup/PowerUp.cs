@@ -41,6 +41,13 @@ public class PowerUp : MonoBehaviour
         }
 
         chosen = false;
+        damageModifier = 0f;
+        scatterAngleModifier = 0f;
+        bulletSpeedModifier = 0f;
+        reloadTimeModifier = 0f;
+        moveSpeedModifier = 0f;
+        fireRateModifier = 0f;
+        ammoModifier = 0f;
     }
 
     public void ActiveContent(int num)

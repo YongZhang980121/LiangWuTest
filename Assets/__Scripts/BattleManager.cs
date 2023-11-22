@@ -15,7 +15,7 @@ public class BattleManager : MonoBehaviour
     {
          Application.targetFrameRate = 120;
          Global.battleManager = this;
-         Global.enemyHp = 10f;
+         Global.enemyHp = 5f;
          Global.rifleDamage = 10f;
          Global.rifleFireRate = 0.25f;
          Global.chaos = 0f;
@@ -34,15 +34,19 @@ public class BattleManager : MonoBehaviour
     {
         Global.uiManager.UpdateMaxAmmo();
         Global.chest.UpdateValueText();
-        Global.playerController.input.Disable();
         if (Global.fromMenuToBattle)
         {
+            Global.playerController.input.Disable();
             Global.fromMenuToBattle = false;
             Global.uiManager.Uncover();
             DOVirtual.DelayedCall(0.5f, () =>
             {
                 GameStart();
             });
+        }
+        else
+        {
+            GameStart();
         }
     }
 

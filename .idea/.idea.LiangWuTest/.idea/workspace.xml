@@ -6,10 +6,11 @@
       <change beforePath="$PROJECT_DIR$/Assets/Import/SourceHanSansSC-VF (1) SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Import/SourceHanSansSC-VF (1) SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/EnemyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Global.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Global.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/MainMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Player/PlayerCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Player/PlayerCollider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/UI/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +105,7 @@
       <workItem from="1700497496123" duration="5365000" />
       <workItem from="1700559115288" duration="13867000" />
       <workItem from="1700592925184" duration="12005000" />
-      <workItem from="1700609461120" duration="1819000" />
+      <workItem from="1700609461120" duration="3215000" />
     </task>
     <servers />
   </component>

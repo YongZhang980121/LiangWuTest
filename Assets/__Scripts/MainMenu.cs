@@ -13,6 +13,10 @@ public class MainMenu : MonoBehaviour
 
     private void Awake()
     {
+        if (Global.fromBattleToMenu)
+        {
+            ReturnToMenu();
+        }
         Global.fromBattleToMenu = false;
         Global.fromMenuToBattle = false;
     }
@@ -22,6 +26,11 @@ public class MainMenu : MonoBehaviour
         button.onClick.RemoveAllListeners();
         button.onClick.AddListener(StartGame);
         cover.alpha = 0f;
+    }
+
+    public void ReturnToMenu()
+    {
+        cover.DOFade(0f, 0.5f).From(1f).SetEase(Ease.Linear);
     }
 
     public void StartGame()
