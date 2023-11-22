@@ -9,8 +9,17 @@ public class PlayerCollider : MonoBehaviour
     {
         if (col.gameObject.layer == LayerMask.NameToLayer("obs"))
         {
-            Debug.Log("powerup");
             Global.chest.GeneratePowerUp();
+        }
+        if (col.gameObject.CompareTag("Enemy"))
+        {
+            Global.playerHp -= 1;
+            col.gameObject.GetComponent<Enemy>().Kill();
+            Global.mmfManager.playerGetHit.PlayFeedbacks();
+            if (Global.playerHp <= 0)
+            {
+                Debug.Log("gameover");
+            }
         }
     }
 }

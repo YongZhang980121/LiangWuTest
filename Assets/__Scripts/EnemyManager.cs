@@ -50,8 +50,6 @@ public class EnemyManager : MonoBehaviour
             collectionCheck: false,
             defaultCapacity: 20,
             maxSize: 40);
-
-        TrySpawningEnemy();
     }
     
     public GameObject GetScore()

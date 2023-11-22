@@ -27,13 +27,30 @@ public class BattleManager : MonoBehaviour
          Global.numOfEnemyPerMinute = 40;
          Global.bulletSpeed = 3000f;
          Global.moveSpeed = 500f;
+         Global.playerHp = 3f;
     }
 
     private void Start()
     {
-        IncrementChaos();
         Global.uiManager.UpdateMaxAmmo();
         Global.chest.UpdateValueText();
+        Global.playerController.input.Disable();
+        if (Global.fromMenuToBattle)
+        {
+            Global.fromMenuToBattle = false;
+            Global.uiManager.Uncover();
+            DOVirtual.DelayedCall(0.5f, () =>
+            {
+                GameStart();
+            });
+        }
+    }
+
+    public void GameStart()
+    {
+        IncrementChaos();
+        Global.enemyManager.TrySpawningEnemy();
+        Global.playerController.input.Enable();
     }
 
     private void IncrementChaos()

@@ -57,6 +57,7 @@ public class Weapon : MonoBehaviour
             }
         }
         FireProjectile(angle);
+        Global.mmfManager.fire.PlayFeedbacks();
         currentAmmo -= 1;
         Global.uiManager.UpdateCurrentAmmo(currentAmmo);
         if (gunKickCoroutine != null)

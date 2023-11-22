@@ -3,30 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="94b3a175-5be0-47f6-895d-93bf3cd5cb94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiangWuTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiangWuTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeArrow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeArrow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeBallInside.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeBallInside.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeBallOutside.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeBallOutside.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeDustMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeDustMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikePinBody.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikePinBody.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikePinStripes.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikePinStripes.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeReset.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeReset.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeResetFloor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeResetFloor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeWood.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/FeelDemosURP/Strike/Materials/FeelStrikeWood.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/Authorizations/MoreMountains.Feedbacks.Authorizations.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/Authorizations/MoreMountains.Feedbacks.Authorizations.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/Editor/MoreMountains.Feedbacks.Editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/Editor/MoreMountains.Feedbacks.Editor.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacks/MoreMountains.Feedbacks.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacks/MoreMountains.Feedbacks.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/Cinemachine/MoreMountains.Feedbacks.Cinemachine.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/Cinemachine/MoreMountains.Feedbacks.Cinemachine.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/HDRP/MoreMountains.Feedbacks.HDRP.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/HDRP/MoreMountains.Feedbacks.HDRP.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/MMTools/MoreMountains.Feedbacks.MMTools.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/MMTools/MoreMountains.Feedbacks.MMTools.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/NiceVibrations/MoreMountains.Feedbacks.NiceVibrations.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/NiceVibrations/MoreMountains.Feedbacks.NiceVibrations.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/PostProcessing/MoreMountains.Feedbacks.PostProcessing.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/PostProcessing/MoreMountains.Feedbacks.PostProcessing.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/TextMeshPro/MoreMountains.Feedbacks.TextMeshPro.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/TextMeshPro/MoreMountains.Feedbacks.TextMeshPro.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/URP/MoreMountains.Feedbacks.URP.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/URP/MoreMountains.Feedbacks.URP.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/MMTools/Tools/MoreMountains.Tools.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/MMTools/Tools/MoreMountains.Tools.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/NiceVibrations/Demo/Lofelt.NiceVibrations.Demo.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/NiceVibrations/Demo/Lofelt.NiceVibrations.Demo.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Feel/NiceVibrations/Scripts/Editor/Lofelt.NiceVibrations.Editor.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Feel/NiceVibrations/Scripts/Editor/Lofelt.NiceVibrations.Editor.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Import/SourceHanSansSC-VF (1) SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Import/SourceHanSansSC-VF (1) SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Battle.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/EnemyManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Global.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Global.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Player/PlayerCollider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Player/PlayerCollider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Weapon/Weapon.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +21,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/BattleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Enemy/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Enemy/Slime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Scripts/MMFManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/__Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Player/PlayerCollider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/UI/Powerup/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/UI/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Weapon/Rifle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Weapon/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Weapon/WeaponController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/Data/UniversalRenderPipelineAsset.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -117,7 +103,8 @@
       <workItem from="1700465997364" duration="3614000" />
       <workItem from="1700497496123" duration="5365000" />
       <workItem from="1700559115288" duration="13867000" />
-      <workItem from="1700592925184" duration="11399000" />
+      <workItem from="1700592925184" duration="12005000" />
+      <workItem from="1700609461120" duration="1819000" />
     </task>
     <servers />
   </component>

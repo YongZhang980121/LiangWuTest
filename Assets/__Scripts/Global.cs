@@ -14,6 +14,7 @@ public static class Global
     public static PowerUpManager powerUpManager;
     public static UIManager uiManager;
     public static Chest chest;
+    public static MMFManager mmfManager;
 
     public static float enemyHp;
     public static float rifleDamage;
@@ -26,4 +27,8 @@ public static class Global
     public static float numOfEnemyPerMinute;
     public static float bulletSpeed;
     public static float moveSpeed;
+    public static float playerHp;
+
+    public static bool fromMenuToBattle;
+    public static bool fromBattleToMenu;
 }
